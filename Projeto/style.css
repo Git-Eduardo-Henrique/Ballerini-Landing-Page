@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {  /* reset de configurações*/
+    margin: 0; /*espaçamento*/
+    padding: 0; /*distancia entre o conteudo e as bordas*/
+    box-sizing: border-box;
+    text-decoration: none; /*retira as decorações do texto*/
+}
+
+body {
+    font-size: 100%; /*tamanho da fonte*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); /*fundo do site com gradient*/
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row; /*deixas as opções em formato de linha */
+    align-items: center; /*alinha o menu com a logo no centro*/
+}
