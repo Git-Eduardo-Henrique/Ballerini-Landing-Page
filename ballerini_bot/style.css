@@ -16,4 +16,10 @@ body {
     display: flex;
     flex-direction: row; /*deixas as opções em formato de linha */
     align-items: center; /*alinha o menu com a logo no centro*/
+    justify-content: space-around; /*deixa um espaçamento entre os itens do cabeçalho*/
+    padding: 20px; /*deixa uma distancia entre o conteudo e as bordas*/
+}
+
+.logo_img {
+    height: 72px; /*almenta o tamanho da imagem*/
 }
