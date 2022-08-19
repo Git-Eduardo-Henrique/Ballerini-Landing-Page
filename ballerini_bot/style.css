@@ -23,3 +23,20 @@ body {
 .logo_img {
     height: 72px; /*almenta o tamanho da imagem*/
 }
+
+.menu_nave {
+    display: flex;
+    gap: 35px;
+}
+
+.item_menu {
+    font-family: 'Sarala', sans-serif; /*adiciona a fonte no css*/
+    color: #FFF2E7;
+    font-weight: 400; /*dita o tamanho da fonte*/
+    font-size: 18px; /*tamanho da fonte*/
+}
+
+.principal {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7; /*cria a borda de cima (menu principal)*/
+}
