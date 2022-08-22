@@ -37,6 +37,51 @@ body {
 }
 
 .principal {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7; /*cria a borda de cima (menu principal)*/
+    margin-bottom: 48px; /*almenta a distancia entre o conteudo e a borda*/
+    border-top: 0.4px solid #FFF2E7; /*cria a borda de cima (menu principal), solid = borda solida*/
+}
+
+.principal_conteudo {
+    display: flex;
+    flex-direction: row; /*deixa conteudo organizado como linha*/
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+.conteudo_escrito {
+    display: flex; /*deixa os itens alinhados*/
+    flex-direction: column; /*deixa o flex organisado em coluna*/
+    gap: 32px;
+}
+
+.titulo_principal {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.subtitulo {
+    font-size: 'Sarala', sans-serif;
+    font-family: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.adicionar {
+    background-color: #ECD6C4; /*cor do fundo do botão*/;
+    width: 185px;
+    height: 67px;
+    border: none; /*tira as bordas*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*adiciona sombra no botão*/
+    border-radius: 20px;
+    font-size: 'Sarala', sans-serif;
+    font-family: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+,
+.ballebot_img {
+    height: 430px;
 }
