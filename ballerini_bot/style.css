@@ -48,6 +48,8 @@ body {
     justify-content: space-around; 
 }
 
+
+
 .conteudo_escrito {
     display: flex; /*deixa os itens alinhados*/
     flex-direction: column; /*deixa o flex organisado em coluna*/
@@ -81,6 +83,10 @@ body {
     color: #2F2325;
 }
 
+.adicionar:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
 .ballebot_img {
     height: 430px;
 }
@@ -110,3 +116,13 @@ body {
     color: #ecd6c4;
 }
 
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.ballerini_text_img {
+    height: 48px;
+    display: block; /*tela em bloco*/
+    margin: 0 auto;
+}
